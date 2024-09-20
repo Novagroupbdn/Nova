@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Group of Institutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #2980b9;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .courses {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .course {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border: 1px solid #bdc3c7;
+            width: 300px;
+            text-align: left;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .course h3 {
+            color: #2980b9;
+        }
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Nova Group of Institutions</h1>
+<p>Address: 7, Labela Chowk, Civil Lines, Budaun(UP) </p>
+    <p>Shaping the Future with Technology</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>The Nova Group of Institutions is a leading educational institute providing training in various computer technologies, programming, and IT solutions.</p>
+</section>
+
+<section id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses">
+        <div class="course">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript, and front-end frameworks to become a skilled web developer.</p>
+        </div>
+        <div class="course">
+            <h3>Python Programming</h3>
+            <p>Master Python, one of the most versatile programming languages used for web, AI, and automation.</p>
+        </div>
+        <div class="course">
+            <h3>Data Science</h3>
+            <p>Explore data analytics, visualization, and machine learning techniques for real-world data challenges.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Nova Group of Institutions | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
